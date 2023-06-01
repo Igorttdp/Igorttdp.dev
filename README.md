@@ -1,3 +1,43 @@
+# DOCUMENTAÇÃO
+
+Esta é a documentação do teste técnico.
+
+## Como Rodar o APP
+
+<b>IMPORTANTE: Aqui estarão os passos para rodar o frontend e o backend.</b>
+
+### Backend
+
+Primeiramente, configure as variáveis de ambiente, criando uma cópia de .env.example e seguindo as instruções.
+
+```
+# O padrão de URL apresentado abaixo deve ser seguido para conexão com o banco de dados
+# Exemplo: mysql://root:1234@localhost:3306/teste-tecnico
+
+DATABASE_URL="mysql://USER:PASSWORD@HOST:PORT/DATABASE"
+SECRET_KEY="BolodeTomate"
+```
+
+Para baixar as dependências utilize o seguinte comando:
+
+```
+npm install
+```
+
+Agora utilize o comando do prisma para criar as tabelas no banco de dados automaticamente: 
+
+```
+npx prisma migrate dev
+```
+
+O ultimo passo para rodar a aplicação é utilizar o seguinte comando:
+
+```
+npm run start
+```
+
+Tudo pronto! Backend rodando! Agora vamos para o front!
+
 # TESTE TÉCNICO
 
 ## Bem vindo!
