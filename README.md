@@ -38,6 +38,20 @@ npm run start
 
 Tudo pronto! Backend rodando! Agora vamos para o front!
 
+### Frontend
+
+Para baixar as dependências utilize o seguinte comando:
+
+```
+npm install
+```
+
+Para rodar a aplicação utilize esse último comando:
+
+```
+npm run dev
+```
+
 # TESTE TÉCNICO
 
 ## Bem vindo!
